@@ -1,0 +1,110 @@
+{
+    "layer": "top",
+    "position": "bottom",
+    "mod": "dock",
+    "exclusive": true,
+    "gtk-layer-shell": true,
+    "margin-bottom": 4,
+    "passthrough": false, 
+    "height": 40,
+    "width": 1590,
+    "spacing": 4,
+
+    "include": [
+        "~/.config/ml4w/settings/waybar-quicklinks.json",
+        "~/.config/waybar/modules.json"
+    ],
+
+    "modules-left": [
+        "custom/ghostymenu",
+        "custom/updates",
+        "wlr/taskbar"
+    ],
+
+    "modules-right": [
+        "idle_inhibitor",
+        "tray",
+        "custom/cliphist",
+        "pulseaudio",
+        "hyprland/language",
+        "network",
+        "group/gtools",
+        "clock",
+        "custom/notification"
+    ],
+
+    "custom/ml4w-welcome": {
+        "on-click": "sleep 0.1 && ~/.config/ml4w/settings/ml4w-sidebar.sh",
+        "on-click-right": "sleep 0.1 && com.ml4w.welcome",
+        "format": " ",
+        "tooltip": false
+    },
+
+    "custom/waybarthemes": {
+        "format": "Themes",
+        "on-click": "~/.config/ml4w/waybar/themeswitcher.sh",
+        "tooltip": false
+    },
+
+    "clock": {
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format": "      {:%R\n %d.%m.%Y}"
+    },
+
+    "idle_inhibitor": {
+        "format": "{icon}",
+        "format-icons": {
+            "activated": "",
+            "deactivated": ""
+        }
+    },
+
+    "network": {
+        "format-wifi": "{essid} ({signalStrength}%) ",
+        "format-ethernet": "󱧑 ",
+        "tooltip-format": "{ifname} via {gwaddr}  ",
+        "format-linked": "{ifname} (No IP)  ",
+        "format-disconnected": "Disconnected ⚠",
+        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+    },
+
+    "pulseaudio": {
+        "format": "󰕾",
+        "format-bluetooth": "{volume}% {icon} {format_source}",
+        "format-bluetooth-muted": " {icon} {format_source}",
+        "format-muted": " {format_source}",
+        "format-source": "{volume}% ",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol"
+    },
+
+    "tray": {
+        "icon-size": 18,
+        "spacing": 3
+    },
+
+    "hyprland/language": {
+        "format": "{}",
+        "format-en": "en",
+        "format-ru": "ru"
+    },
+
+    "wlr/taskbar": {
+        "format": "{icon}",
+        "icon-size": 28,
+        "spacing": 3,
+        "on-click-middle": "close",
+        "tooltip-format": "{title}",
+        "ignore-list": [],
+        "on-click": "activate"
+    }
+}

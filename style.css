@@ -1,0 +1,335 @@
+* {
+	border: none;
+	border-radius: 0px;
+	box-shadow: none;
+	font-family: "Segoe UI", "Ubuntu";
+	font-size: 12.7px;
+	font-weight: 600;
+	text-shadow: none;
+}
+
+#clock {
+	background-color: transparent;
+	border-radius: 0;
+	color: #ffffff;
+	font-family: "Ubuntu";
+	font-size: 13px;
+	font-weight: lighter;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 5px;
+	transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#clock:hover {
+	background-color: rgba(255, 255, 255, 0.05);
+	border-radius: 0;
+}
+
+#cpu {
+	margin: 0;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 5px;
+	padding-right: 2px;
+	transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#cpu:hover {
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+#custom-cliphist {
+	border-radius: 0;
+    font-size: 18px;
+	margin: 0;
+	margin-right: 0px;
+	padding-left: 8px;
+	padding-right: 10px;
+	transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#custom-cliphist:hover {
+	background-color: rgba(255, 255, 255, 0.05);
+	border-radius: 0;
+}
+
+#custom-gtools-wrap {
+	border-radius: 0;
+	font-size: 18px;
+	margin: 0;
+	margin-right: 0px;
+	padding-left: 8px;
+	padding-right: 10px;
+	transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#custom-gtools-wrap:hover {
+	background-color: rgba(255, 255, 255, 0.05);
+	font-size: 18px;
+}
+
+#custom-notification {
+	background-color: transparent;
+	border-radius: 0;
+	color: #ffffff;
+	font-size: 20px;
+	margin: 0;
+	margin-right: 0px;
+	opacity: 0.8;
+	padding-left: 10px;
+	padding-right: 15px;
+	transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#custom-notification:hover {
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+#custom-settings {
+	margin: 0;
+	margin-left: 5px;
+	margin-right: 0px;
+	margin-right: 5px;
+	padding-left: 5px;
+	padding-right: 10px;
+	transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#custom-settings:hover {
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+#custom-updates {
+	border-radius: 0;
+	font-size: 25px;
+	margin-left: 0;
+	padding-left: 10px;
+	padding-right: 10px;
+	transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#custom-updates:hover {
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+#custom-wallpaper {
+	margin: 0;
+	margin-left: 5px;
+	margin-right: 0px;
+	margin-right: 5px;
+	padding-left: 5px;
+	padding-right: 10px;
+	transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#custom-wallpaper:hover {
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+#custom-waybarthemes {
+	margin: 0;
+	margin-left: 5px;
+	margin-right: 0px;
+	margin-right: 5px;
+	padding-left: 5px;
+	padding-right: 10px;
+	transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#custom-waybarthemes:hover {
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+#disk {
+	margin: 0;
+	margin-left: 0;
+	margin-right: 0px;
+	padding-left: 5px;
+	padding-right: 2px;
+	transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#disk:hover {
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+#idle_inhibitor {
+	background-color: transparent;
+	border-radius: 0;
+	margin: 0;
+	margin-right: 0px;
+	padding-left: 9px;
+	padding-right: 15px;
+	transition: background-color 0.2s ease-in-out;
+}
+
+#idle_inhibitor:hover {
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+#language {
+	background-color: transparent;
+	font-family: "Segou UI";
+	font-size: 14px;
+	font-weight: lighter;
+	margin-bottom: 2px;
+}
+
+#memory {
+	margin: 0;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 5px;
+	padding-right: 2px;
+	transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#memory:hover {
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+#network {
+	background-color: transparent;
+	border-radius: 0;
+	font-size: 18px;
+	margin-bottom: 0;
+	margin-right: 0px;
+	padding: 0px 5px 0px 10px;
+	transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#network.disconnected {
+	background-color: rgba(255, 0, 0, 0.2);
+	border-radius: 10;
+}
+
+#network:hover {
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+#pulseaudio {
+	background-color: transparent;
+	border-radius: 0;
+	color: #ffffff;
+	font-size: 18px;
+	margin: 0;
+	margin-right: 0px;
+	padding-left: 8px;
+	padding-right: 10px;
+	transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#pulseaudio.muted {
+	background-color: #90b1b1;
+	color: #2a5c45;
+}
+
+#pulseaudio:hover {
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+#tray {
+	background-color: transparent;
+	border-radius: 10;
+	margin: 0;
+	padding: 0;
+}
+
+#tray * {
+	margin-left: 8px;
+	margin-right: 8px;
+	transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#tray > .needs-attention {
+	-gtk-icon-effect: highlight;
+	background-color: #eb4d4b;
+}
+
+#tray > .passive {
+	-gtk-icon-effect: dim;
+}
+
+#tray > *:hover {
+	background-color: rgba(255, 255, 255, 0.05);
+	border-radius: 0;
+}
+
+button {
+	border: none;
+	border-radius: 0;
+	box-shadow: inset 0 -3px transparent;
+}
+
+button:hover {
+	background: inherit;
+	box-shadow: inset 0 -3px #0078D7;
+}
+
+tooltip {
+	background: rgba(0, 0, 0, 0.9);
+	border-color: rgba(255, 255, 255, 0.2);
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+tooltip label {
+	color: white;
+}
+
+window#waybar {
+	background-color: rgba(25, 25, 25, 0.2);
+	border-radius: 6px;
+	color: white;
+}
+
+window#waybar.chromium {
+	background-color: #000000;
+	border: none;
+}
+
+window#waybar.hidden {
+	opacity: 0.2;
+}
+
+window#waybar.termite {
+	background-color: #3F3F3F;
+}
+
+#custom-ghostymenu {
+	border-bottom-left-radius: 6px;
+	border-top-left-radius: 6px;
+	color: #ffffff;
+	font-size: 20px;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0 18px 0 10px;
+	transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#custom-ghostymenu:hover {
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+#taskbar {}
+
+#taskbar button {
+	background: rgba(100, 100, 100, 0.2);
+	color: white;
+	margin-left: 1px;
+	margin-right: 1px;
+	min-width: 25px;
+	padding-left: 8px;
+	padding-right: 8px;
+	transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#taskbar button.active {}
+
+#taskbar button:hover {
+	background: rgba(200, 200, 200, 0.3);
+	color: white;
+}
